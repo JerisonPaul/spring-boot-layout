@@ -1,0 +1,8 @@
+.gradle
+build/
+target/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+.idea
+logs
+*.gz
