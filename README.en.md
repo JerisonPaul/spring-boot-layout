@@ -12,11 +12,11 @@ SpringBoot Basic Layout Mode
 #### Engineering Introduction
 In the project, the database address is self replaced, and a Hello table is provided with two interfaces for testing
 <br/>
-get api，findByName
+* get api，findByName
 ```shell script
 curl --location 'http://127.0.0.1:8010/hello/test/get?name='
 ```
-post api，updateNameById
+* post api，updateNameById
 ```shell script
 curl --location 'http://127.0.0.1:8010/hello/test/post' \
 --header 'Content-Type: application/json' \
@@ -25,4 +25,8 @@ curl --location 'http://127.0.0.1:8010/hello/test/post' \
     "name": "newName"
 }'
 ```
-                 
+* swagger access address
+```shell script
+  http://127.0.0.1:8010/swagger-ui.html
+```
+![](https://upload-images.jianshu.io/upload_images/8396943-3c2757ff87212c69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)                 
