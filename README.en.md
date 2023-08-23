@@ -1,7 +1,11 @@
 # spring-boot-layout
 
 #### Description
-SpringBoot Basic Layout Mode
+SpringBoot Basic development mode
+<br/>
+This project includes a series of basic content in daily development with SpringBoot, which has great reference value for the construction of the framework. You can refer to it, and can be directly applied to your own actual project development.
+<br/>
+The follow-up will be gradually improved, including a series of processes such as development, construction, online, operation and maintenance, and then it will turn to advanced content such as SpringCloud.
 
 #### Development Environment
 * Develop IDE：[IDEA](https://www.jetbrains.com/idea/download/)
