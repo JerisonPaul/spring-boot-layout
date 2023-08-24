@@ -16,11 +16,9 @@ The follow-up will be gradually improved, including a series of processes such a
 #### Engineering Introduction
 In the project, the database address is self replaced, and a Hello table is provided with two interfaces for testing
 <br/>
-* get api，findByName
 ```shell script
 curl --location 'http://127.0.0.1:8010/hello/test/get?name='
 ```
-* post api，updateNameById
 ```shell script
 curl --location 'http://127.0.0.1:8010/hello/test/post' \
 --header 'Content-Type: application/json' \

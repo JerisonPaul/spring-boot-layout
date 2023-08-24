@@ -16,11 +16,9 @@ SpringBoot 基本开发模式
 #### 工程介绍
 项目中数据库地址自行替换，提供了一个Hello表，两个接口用来测试
 <br/>
-* get接口，通过名称查询
 ```shell script
 curl --location 'http://127.0.0.1:8010/hello/test/get?name='
 ```
-* post接口，更新名称通过Id
 ```shell script
 curl --location 'http://127.0.0.1:8010/hello/test/post' \
 --header 'Content-Type: application/json' \
