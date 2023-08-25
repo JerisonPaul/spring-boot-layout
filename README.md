@@ -1,34 +1,33 @@
 # spring-boot-layout
 
-#### 介绍
-SpringBoot 基本开发模式
+#### Description
+SpringBoot Basic development mode
 <br/>
-该项目中包括了用 SpringBoot 构建日常开发中一系列基本内容，对于框架的搭建有很大的参考价值，大家可以参考，同时可以直接应用于自己的实际的项目开发中
+This project includes a series of basic content in daily development with SpringBoot, which has great reference value for the construction of the framework. You can refer to it, and can be directly applied to your own actual project development.
 <br/>
-后续会逐步完善，包括 开发、构建、上线、运维等一系列流程，之后会转向 SpringCloud等进阶内容
+The follow-up will be gradually improved, including a series of processes such as development, construction, online, operation and maintenance, and then it will turn to advanced content such as SpringCloud.
 
-#### 开发环境
-* 开发IDE：[IDEA](https://www.jetbrains.com/idea/download/)
-* 数据库： [mysql5.7](https://dev.mysql.com/downloads/mysql/)
+#### Development Environment
+* Develop IDE：[IDEA](https://www.jetbrains.com/idea/download/)
+* DB： [mysql5.7](https://dev.mysql.com/downloads/mysql/)
 * JDK: [JDK8](https://www.oracle.com/java/technologies/downloads/#java8-linux)
-* Erlang环境：该项目没有采用Maven进行项目构建，Maven通过xml进行依赖管理，导致整个配置文件太过臃肿，另外灵活性也不是很强，所以我采用Gradle进行项目构建和依赖管理，通过简单的一些配置就可以轻松的实现组件化的功能
+* Erlang：This project did not use Maven for project construction. Maven used XML for dependency management, which resulted in the entire configuration file being too cumbersome and not very flexible. Therefore, I used Gradle for project construction and dependency management. With simple configurations, I can easily achieve componentized functionality
 
-#### 工程介绍
-项目中数据库地址自行替换，提供了一个Hello表，两个接口用来测试
+#### Engineering Introduction
+The database address in the project is replaced by itself
 <br/>
-```shell script
-curl --location 'http://127.0.0.1:8010/hello/test/get?name='
-```
-```shell script
-curl --location 'http://127.0.0.1:8010/hello/test/post' \
---header 'Content-Type: application/json' \
---data '{
-    "id" : 1,
-    "name": "newName"
-}'
-```
-* swagger访问地址
+* Swagger access address
 ```shell script
   http://127.0.0.1:8010/swagger-ui.html
 ```
-![](https://upload-images.jianshu.io/upload_images/8396943-3c2757ff87212c69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/8396943-9dce6780b49b1ac1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+* Unified Return Structure
+![](https://upload-images.jianshu.io/upload_images/8396943-1fee2dabeda99c3a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+* Elegant verification of input parameters
+![](https://upload-images.jianshu.io/upload_images/8396943-36005e65f651059c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+* Unified exception capture
+![](https://upload-images.jianshu.io/upload_images/8396943-b7335071a9e178b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
