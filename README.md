@@ -26,7 +26,7 @@ The database address in the project is replaced by itself
 ![](https://upload-images.jianshu.io/upload_images/8396943-1fee2dabeda99c3a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * Elegant verification of input parameters
-![](https://upload-images.jianshu.io/upload_images/8396943-36005e65f651059c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/8396943-9a735c221c94bab8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * Unified exception capture
 ![](https://upload-images.jianshu.io/upload_images/8396943-b7335071a9e178b4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
