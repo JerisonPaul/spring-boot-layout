@@ -36,7 +36,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo(){
         Contact contact = new Contact("JerisonPaul", "个人链接：", "**");
         return new ApiInfo(
-                "接口文档", // 标题
+                "Interface Documentation", // 标题
                 "", // 描述
                 "API：v1.0", // 版本
                 "Terms of service", // 组织链接

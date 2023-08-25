@@ -18,13 +18,13 @@ public class HelloController {
     @Autowired
     HelloService helloService;
 
-    @ApiOperation(value = "查询By名称")
+    @ApiOperation(value = "Query By Name")
     @GetMapping("/test/get")
     public StandardResponseDTO testGet(@RequestParam("name") String name) {
         return HttpResponseUtil.success(helloService.testGet(name));
     }
 
-    @ApiOperation(value = "修改名称ById")
+    @ApiOperation(value = "Modify nameById")
     @PostMapping("/test/post")
     public StandardResponseDTO testPost(@RequestBody @Valid TestBody testBody) throws Exception {
         return  HttpResponseUtil.success(helloService.testPost(testBody));

@@ -20,7 +20,7 @@ The database address in the project is replaced by itself
 ```shell script
   http://127.0.0.1:8010/swagger-ui.html
 ```
-![](https://upload-images.jianshu.io/upload_images/8396943-9dce6780b49b1ac1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/8396943-ddf4d3fea3a3f80d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 * Unified Return Structure
 ![](https://upload-images.jianshu.io/upload_images/8396943-1fee2dabeda99c3a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

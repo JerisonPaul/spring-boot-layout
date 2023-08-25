@@ -37,7 +37,7 @@ dependencies {
 
 allprojects {
 
-    //统一升级
+    // Unified upgrade
     configurations.all {
         resolutionStrategy.eachDependency { DependencyResolveDetails details ->
             if (details.requested.group == 'org.apache.logging.log4j') {

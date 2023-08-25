@@ -11,9 +11,9 @@ public class TestBody implements Serializable {
 
     private static final long serialVersionUID = -7151464967889396022L;
 
-    @NotNull(message = "id不能为空")
+    @NotNull(message = "id cannot be empty")
     private Integer id;
 
-    @NotEmpty(message = "name不能为空")
+    @NotEmpty(message = "name cannot be empty")
     private String name;
 }
