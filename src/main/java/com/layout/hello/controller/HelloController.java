@@ -8,6 +8,8 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 @RestController
 @CrossOrigin
 @RequestMapping("/hello")
@@ -24,7 +26,7 @@ public class HelloController {
 
     @ApiOperation(value = "修改名称ById")
     @PostMapping("/test/post")
-    public StandardResponseDTO testPost(@RequestBody TestBody testBody) {
+    public StandardResponseDTO testPost(@RequestBody @Valid TestBody testBody) throws Exception {
         return  HttpResponseUtil.success(helloService.testPost(testBody));
     }
 }

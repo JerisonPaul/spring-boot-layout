@@ -21,10 +21,14 @@ public class HelloImpl implements HelloService {
         return "I Am" + hello.getName();
     }
 
-    public String testPost(TestBody testBody) {
-        if (StringUtils.isEmpty(testBody.getId()) || StringUtils.isEmpty(testBody.getName())) return "啥也没找到";
+    public String testPost(TestBody testBody) throws Exception {
+        if (StringUtils.isEmpty(testBody.getId()) || StringUtils.isEmpty(testBody.getName())) {
+            throw new Exception("啥也没找到");
+        }
         Optional<Hello> hello = helloRepository.findById(testBody.getId());
-        if (!hello.isPresent()) return "啥也没找到";
+        if (!hello.isPresent()) {
+            throw new Exception("啥也没找到");
+        }
         hello.get().setName(testBody.getName());
         helloRepository.save(hello.get());
         return "I Am " + hello.get().getName();
